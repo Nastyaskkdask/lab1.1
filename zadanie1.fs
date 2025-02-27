@@ -2,7 +2,7 @@ open System
 
 printf "Введите размерность списка: "
 let n = int(Console.ReadLine())
-printfn "Введите числа: "
+printfn "Введите числа через Enter: "
 
 let list = [
     for i in 1..n do
